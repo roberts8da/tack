@@ -6,7 +6,6 @@ runtime:
 commands:
   package: ""
   build:
-    - "apt-get update && apt-get install -y curl ca-certificates && rm -rf /var/lib/apt/lists/*"
     - "pip install -r requirements.txt"
   start: "python3 app.py"
 
