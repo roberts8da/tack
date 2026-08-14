@@ -1,5 +1,7 @@
+# Version: 2.0.0
+
 runtime:
-  image: "python:3.12"
+  image: "python:3.10-alpine"
 
 commands:
   package: ""
