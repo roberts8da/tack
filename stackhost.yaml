@@ -1,9 +1,5 @@
-# StackHost configuration file
-
-# Version: 2.0.0
-
 runtime:
-  image: "python:3.11-slim"
+  image: "python:3.10-alpine"
 
 commands:
   package: ""
@@ -14,6 +10,3 @@ commands:
 repository:
   branch: "main"
   auto_deploy: true
-
-env:
-  - KEY: VALUE
