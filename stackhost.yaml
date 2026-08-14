@@ -1,14 +1,12 @@
-# Version: 2.0.0
-
 runtime:
-  image: "python:3.11-slim"
+  image: node:22
 
 commands:
   package: ""
   build:
-    - "pip install -r requirements.txt"
-  start: "python3 app.py"
+    - "npm install"
+  start: "npm start"
 
 repository:
-  branch: "main"
+  branch: main
   auto_deploy: true
