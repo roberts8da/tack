@@ -2,7 +2,6 @@
 
 runtime:
   image: "python:3.11"
-  port: 3000 
 
 commands:
   package: ""
